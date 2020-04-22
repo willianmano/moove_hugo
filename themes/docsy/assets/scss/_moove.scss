@@ -10,6 +10,21 @@
     max-width: 50%;
 }
 
+@include media-breakpoint-down(md) {
+    .sm-px-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .sm-text-center {
+        text-align: center !important;
+    }
+
+    .sm-mt-4 {
+        margin-top: 1.5rem !important;
+    }
+}
+
 .social {
     a {
         font-size: 3em;
