@@ -1,0 +1,50 @@
+.img-responsive {
+    max-width: 100%;   
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
+
+.w-50 {
+    max-width: 50%;
+}
+
+.social {
+    a {
+        font-size: 3em;
+        margin-right: .75rem;
+
+        &.mail {
+            color: #dd4b39;
+
+            &:hover {
+                color: darken(#dd4b39, 10%);
+            }
+        }
+
+        &.whatsapp {
+            color: #25d366;
+
+            &:hover {
+                color: darken(#25d366, 10%);
+            }
+        }
+
+        &.github {
+            color: #24292e;
+
+            &:hover {
+                color: darken(#24292e, 10%);
+            }
+        }
+
+        &.instagram {
+            color: #8a3ab9;
+
+            &:hover {
+                color: darken(#8a3ab9, 10%);
+            }
+        }
+    }
+}

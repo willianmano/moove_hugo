@@ -1,0 +1,76 @@
+---
+title: "FAQ"
+linkTitle: "FAQ"
+weight: 4
+description: >
+  Frequently asked questions
+---
+
+<p>Please, read this before asking any questions. Probably you will find your answers here.</p>
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How can I change the left side menu itens?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      	<p>The theme is not responsible for managing the items inside the left side menu. But you can handle this through a very nice plugin called <a href="https://moodle.org/plugins/local_boostnavigation">Boost navigation fumbling</a>.</p>
+      	<p>Try it out: <a href="https://moodle.org/plugins/local_boostnavigation">https://moodle.org/plugins/local_boostnavigation</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          I installed the theme, but it doesn't load the CSS
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        This is not a theme problem. The process to compile the final CSS is heavy and needs some memory and CPU. To handle that you have two alternatives:
+
+        <ol>
+          <li>Increase your PHP memory limit. 512 MB is a good value, and you can back to the previous values before loading the Moodle.</li>
+          <li>By running the following code in the terminal, at the root of your Moodle: <pre>sudo -u www-data /usr/bin/php admin/cli/build_theme_css.php --themes=boost,moove</pre></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          How can I change the course images?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        You need to go in the course settings and put the image inside the course image field.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Which Moodle versions are the theme compatible with?
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+        All versions from 3.2.
+        
+        <div class="alert alert-primary bg-info mt-2"><h4>Its good to know</h4>I only support the most recent Moodle version. New features, bug fixes, and improvements are delivered only for the most recent Moodle version.</div>
+      </div>
+    </div>
+  </div>
+</div>

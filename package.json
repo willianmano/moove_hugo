@@ -1,0 +1,29 @@
+{
+  "name": "moove_hugo",
+  "version": "0.0.1",
+  "description": "The moove site hugo source repo",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willianmano/moove_hugo.git"
+  },
+  "keywords": [
+    "moove",
+    "moodle",
+    "hugo"
+  ],
+  "author": "Willian Mano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willianmano/moove_hugo/issues"
+  },
+  "homepage": "https://github.com/willianmano/moove_hugo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.4.6",
+    "postcss-cli": "^5.0.1"
+  }
+}

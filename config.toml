@@ -1,0 +1,75 @@
+baseURL = "https://willianmano.github.io/moove/"
+languageCode = "en-us"
+title = "Moove"
+theme = "docsy"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+# Useful when translating.
+enableMissingTranslationPlaceholders = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+# Language configuration
+
+[languages]
+    [languages.en]
+    title = "Moove theme"
+    description = "Theme moove site"
+    languageName ="English"
+    # Weight used for sorting.
+    weight = 1
+
+    [languages.pt_br]
+    title = "Tema Moove"
+    description = "Site do tema Moove"
+    languageName ="Português"
+    contentDir = "content/pt_br"
+    time_format_default = "02/01/2006"
+    time_format_blog = "02/01/2006"
+
+[menu]
+  [[menu.main]]
+    identifier = "github"
+    name = "Github"
+    title = "Github"
+    url = "https://github.com/willianmano/moodle-theme_moove"
+    weight = 20
+    pre = '<i class="fab fa-github"></i>'
+  [[menu.main]]
+    identifier = "author"
+    name = "About the author"
+    title = "About the author"
+    url = "#td-block-3"
+    weight = 30
+    pre = '<i class="fa fa-user-astronaut"></i>'
+
+[params]
+copyright = "Conecti.me"
+
+# The version number for the version of the docs represented in this doc set.
+# Used in the "version-banner" partial to display a version number for the 
+# current doc set.
+version = "3.8.11"
+
+# Repository configuration (URLs for in-page links to opening issues and suggesting changes)
+github_repo = "https://github.com/willianmano/moove_hugo/"
+# An optional link to a related project repo. For example, the sibling repository where your product code lives.
+github_project_repo = "https://github.com/willianmano/moodle-theme_moove/"
+
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+gcs_engine_id = "011737558837375720776:fsdu1nryfng"
