@@ -1,4 +1,4 @@
-baseURL = "https://willianmano.github.io/moove/"
+baseURL = "http://willianmano.github.io/moove/"
 languageCode = "en-us"
 title = "Moove"
 theme = "docsy"
